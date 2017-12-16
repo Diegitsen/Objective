@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.diego.objective.ThirdActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@drawable/fondo">
+
+        <TextView
+            android:id="@+id/tvinfoProy2"
+            android:layout_width="264dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/infoProyecto2"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvInfoProy1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/infoProyecto"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvinfoProy2"
+            app:layout_constraintStart_toStartOf="@+id/tvinfoProy2" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#FFFF">
+
+        <TextView
+            android:id="@+id/tvInfoProy3"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/preguntaProyecto"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etInfoProy3"
+            app:layout_constraintStart_toStartOf="@+id/etInfoProy3" />
+
+        <EditText
+            android:id="@+id/etInfoProy3"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="228dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvInfoProy4"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/preguntaProyecto2"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etInfoProy4"
+            app:layout_constraintStart_toStartOf="@+id/etInfoProy4" />
+
+        <EditText
+            android:id="@+id/etInfoProy4"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="164dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvInfoProy5"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/preguntaProyecto3"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etInfoProy5"
+            app:layout_constraintStart_toStartOf="@+id/etInfoProy5" />
+
+        <EditText
+            android:id="@+id/etInfoProy5"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="96dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/nextpag"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toStartOf="parent"
+            android:onClick="nActFourth"/>
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

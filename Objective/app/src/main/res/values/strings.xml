@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Objective</string>
+
+    <!--Second layout-->
+
+    <string name="mensajeBienvenida">Yo voy a ser tu coach en este gran viaje hacia
+        tu sueño, es por ello que primero debo saber tu nombre</string>
+
+    <string name="preguntaBienvenida">¿Cómo quieres que te llamemos?</string>
+
+    <!--Third layout-->
+
+    <string name="infoProyecto">Cuentanos de tu proyecto a realizar</string>
+
+    <string name="infoProyecto2">Así podremos saber cúales son las cosas que te
+        motivan a realizarla</string>
+
+    <string name="preguntaProyecto">¿Cómo se llama?</string>
+
+    <string name="preguntaProyecto2">¿De qué trata?</string>
+
+    <string name="preguntaProyecto3">¿Cúal es tu inspiración a realizarla?</string>
+
+    <!--Forth layout-->
+
+    <string name="creaRutina1">Crea tu rutina!</string>
+
+    <string name="creaRutina2">Determina cúantos días y cúantas horas a la semana
+    vas a necesitar para que tu proyecto salga a la luz</string>
+
+    <string name="creaRutina3">¿Cúantos días a la semana?</string>
+
+    <string name="creaRutina4">¿Cúales?</string>
+
+    <string name="creaRutina5">¿Cúantas horas por sesión?</string>
+
+    <string name="ultimoAviso1">Ya falta poco para acabar!</string>
+
+    <string name="ultimoAviso2">Realmente tienes el potencial para cumplir con tu sueño?</string>
+
+    <string name="ultimoAviso3">¿Estás listo para revolucionar todo el mundo?</string>
+
+    <string name="ready1">¡Estás listo!</string>
+
+    <string name="ready2">Esto marcará un antes y después en tu vida...
+    Hacer tu sueño realidad va a demandar de tiempo, esfuerzo
+     y mucha determinación; sin embargo, lo vale!</string>
+
+    <string name="ready3">Hacer tu sueño realidad va a demandar de tiempo, esfuerzo
+     y mucha determinación; sin embargo, lo vale!</string>
+
+    <string name="ready4">Por último queremos saber cúal es tu inspiración para llevar a cabo tu proyecto</string>
+
+
+</resources>
