@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.diego.objective.ThirdActivity">
+    tools:context="com.example.diego.objective.MultipleChoice">
 
 
     <android.support.constraint.ConstraintLayout
@@ -15,13 +15,13 @@
         android:background="@drawable/fondo">
 
         <TextView
-            android:id="@+id/tvinfoProy2"
+            android:id="@+id/tvRutina2"
             android:layout_width="264dp"
             android:layout_height="100dp"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:text="@string/infoProyecto2"
+            android:text="@string/creaRutina2"
             android:textColor="@android:color/background_light"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -29,16 +29,16 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/tvInfoProy1"
+            android:id="@+id/tvRutina"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="sans-serif"
-            android:text="@string/infoProyecto"
+            android:text="@string/creaRutina1"
             android:textColor="@android:color/background_light"
             android:textSize="16sp"
-            app:layout_constraintBottom_toTopOf="@+id/tvinfoProy2"
-            app:layout_constraintStart_toStartOf="@+id/tvinfoProy2" />
+            app:layout_constraintBottom_toTopOf="@+id/tvRutina2"
+            app:layout_constraintStart_toStartOf="@+id/tvRutina2" />
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
@@ -48,83 +48,72 @@
         android:background="#FFFF">
 
         <TextView
-            android:id="@+id/tvInfoProy3"
+            android:id="@+id/tvRutina3"
             android:layout_width="wrap_content"
-            android:layout_height="21dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/preguntaProyecto"
-            android:textColor="@android:color/background_dark"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toTopOf="@+id/etInfoProy3"
-            app:layout_constraintStart_toStartOf="@+id/etInfoProy3" />
-
-        <EditText
-            android:id="@+id/etInfoProy3"
-            android:layout_width="234dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="228dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:ems="10"
-            android:textColor="@android:color/black"
-            android:inputType="textPersonName"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/creaRutina3"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.38"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.267"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.103" />
+
+        <ImageButton
+            android:id="@+id/imButton1"
+            android:layout_width="43dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/more"
+            android:ems="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.292"
+            app:layout_constraintStart_toEndOf="@+id/tvRutina3"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tvInfoProy4"
+            android:id="@+id/tvRutina5"
             android:layout_width="wrap_content"
-            android:layout_height="21dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/preguntaProyecto2"
-            android:textColor="@android:color/background_dark"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toTopOf="@+id/etInfoProy4"
-            app:layout_constraintStart_toStartOf="@+id/etInfoProy4" />
-
-        <EditText
-            android:id="@+id/etInfoProy4"
-            android:layout_width="234dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="164dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:ems="10"
-            android:textColor="@android:color/black"
-            android:inputType="textPersonName"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.38"
-            app:layout_constraintStart_toStartOf="parent" />
-
-
-        <TextView
-            android:id="@+id/tvInfoProy5"
-            android:layout_width="wrap_content"
-            android:layout_height="21dp"
+            android:layout_marginTop="8dp"
             android:fontFamily="sans-serif"
-            android:text="@string/preguntaProyecto3"
+            android:text="@string/creaRutina5"
             android:textColor="@android:color/background_dark"
             android:textSize="16sp"
-            app:layout_constraintBottom_toTopOf="@+id/etInfoProy5"
-            app:layout_constraintStart_toStartOf="@+id/etInfoProy5" />
-
-        <EditText
-            android:id="@+id/etInfoProy5"
-            android:layout_width="234dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="96dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:ems="10"
-            android:textColor="@android:color/black"
-            android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.38"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.397" />
+
+        <EditText
+            android:id="@+id/etRutina5"
+            android:layout_width="43dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="116dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toEndOf="@+id/tvRutina5"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
         <ImageButton
             android:id="@+id/imageButton"
@@ -138,7 +127,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent"
-            android:onClick="nActFourth"/>
+            android:onClick="nextActivityy"/>
+
+        <TextView
+            android:id="@+id/tvDias"
+            android:layout_width="246dp"
+            android:layout_height="26dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="72dp"
+            android:ems="10"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.593"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>

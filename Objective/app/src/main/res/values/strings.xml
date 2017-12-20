@@ -28,7 +28,7 @@
     <string name="creaRutina2">Determina cúantos días y cúantas horas a la semana
     vas a necesitar para que tu proyecto salga a la luz</string>
 
-    <string name="creaRutina3">¿Cúantos días a la semana?</string>
+    <string name="creaRutina3">¿Qué días de la semana?</string>
 
     <string name="creaRutina4">¿Cúales?</string>
 
@@ -51,5 +51,16 @@
 
     <string name="ready4">Por último queremos saber cúal es tu inspiración para llevar a cabo tu proyecto</string>
 
+    <string name="go">¡GO!</string>
+
+    <string-array name="shopping_item">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
 
 </resources>

@@ -23,7 +23,7 @@ class ThirdActivity : AppCompatActivity() {
         var nombreProyecto = etInfoProy3.text.toString()
         var infoProyecto = etInfoProy4.text.toString()
         var inspiracionProyecto = etInfoProy5.text.toString()
-        val nA = Intent(this, ForthActivity::class.java)
+        val nA = Intent(this, MultipleChoice::class.java)
         nA.putExtra("NombreProyecto", nombreProyecto)
         nA.putExtra("InfoProyecto", infoProyecto)
         nA.putExtra("InspiracionProyecto", inspiracionProyecto)
