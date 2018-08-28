@@ -1,5 +1,5 @@
 # Objective
-An alarm created so that you can acomplish your goals with constantly motivation!
+An alarm created so that you can acomplish your goals with constantly motivation!!
 
 ## Getting Started
 
