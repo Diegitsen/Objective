@@ -1,6 +1,8 @@
 # Objective
 An alarm created so that you can acomplish your goals with constantly motivation!!
 
+You can manage your productivity
+
 ## Getting Started
 
 In this project, we can see:
